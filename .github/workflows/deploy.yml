@@ -1,5 +1,10 @@
 name: Deploy to GitHub Pages
 
+# Grant workflow permission to write repository contents and Pages
+permissions:
+  contents: write
+  pages: write
+
 on:
   push:
     branches:
